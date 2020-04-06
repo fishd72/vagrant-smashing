@@ -1,0 +1,60 @@
+<% content_for :title do %>JSS Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Clock"></div>
+      <i class="fa fa-clock-o icon-background"></i>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Jamf Pro" data-text="Welcome to the Secure Engineering Dashboard." data-moreinfo="To request specific data here, please contact support@engineering.digital.dwp.gov.uk"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="enrolled" data-view="Number" data-title="Enrolled devices"></div>
+    </li>
+    <!-- Removed individual tiles in favour of Pie Charts
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="latest" data-view="Number" data-title="Patched OS" data-moreinfo="running macOS 10.13.6" style="background-color:#00e600"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="older" data-view="Number" data-title="Unpatched OS" data-moreinfo="macOS out-of-date" style="background-color:#ff9618"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="active" data-view="Number" data-title="Active" data-moreinfo="Checked-in within last 7 days" style="background-color:#00e600"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="inactive" data-view="Number" data-title="Inactive" style="background-color:#ff9618"></div>
+    </li>
+    -->
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="activity" data-view ="PieChart" data-title="Activity" data-moreinfo="Active vs Inactive devices" data-left-margin="5" data-top-margin="10"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="patching" data-view ="PieChart" data-title="Patching" data-moreinfo="Patched vs Unpatch devices" data-left-margin="5" data-top-margin="10"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="enrolment" data-view ="PieChart" data-title="Enrolment" data-moreinfo="Enrolment method" data-left-margin="5" data-top-margin="10"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="buzzwords" data-view="List" data-unordered="true" data-title="Buzzwords" data-moreinfo="# of times said around the office"></div>
+    </li>
+    <!-- Temporarily removed, Slack presence indicators.
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="slack-presence-user1" data-view="SlackPresence"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="slack-presence-user2" data-view="SlackPresence"></div>
+    </li>
+    -->
+    <!-- Removed individual tiles in favour of Pie Charts
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="dep" data-view="Number" data-title="DEP" data-moreinfo="Enrolled via DEP" style="background-color:#bc499f"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="manual" data-view="Number" data-title="Manual Enrolment" style="background-color:#4949bc"></div>
+    </li>
+    -->
+    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="barchart" data-view ="BarChart" data-title="Builds" data-moreinfo="number of devices enrolled per day"></div>
+    </li>
+  </ul>
+</div>

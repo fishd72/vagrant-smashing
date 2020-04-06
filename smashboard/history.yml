@@ -1,0 +1,21 @@
+---
+enrolment: "data: {\"labels\":[\"DEP\",\"Manual\"],\"datasets\":[{\"data\":[39,37],\"backgroundColor\":[\"#BCBC49\",\"#49BC9F\"],\"hoverBackgroundColor\":[\"#959537\",\"#37957D\"]}],\"options\":{},\"id\":\"enrolment\",\"updatedAt\":1586191284871}\n\n"
+barchart: "data: {\"labels\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"datasets\":[{\"label\":\"Current
+  week\",\"data\":[16,0,2,0,16,4,6],\"backgroundColor\":[\"rgba(255, 99, 132, 0.2)\",\"rgba(255,
+  99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255,
+  99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\"],\"borderColor\":[\"rgba(255,
+  99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99,
+  132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132,
+  1)\"],\"borderWidth\":1},{\"label\":\"Previous Week\",\"data\":[18,2,4,1,16,18,15],\"backgroundColor\":[\"rgba(255,
+  206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255,
+  206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255,
+  206, 86, 0.2)\"],\"borderColor\":[\"rgba(255, 206, 86, 1)\",\"rgba(255, 206, 86,
+  1)\",\"rgba(255, 206, 86, 1)\",\"rgba(255, 206, 86, 1)\",\"rgba(255, 206, 86, 1)\",\"rgba(255,
+  206, 86, 1)\",\"rgba(255, 206, 86, 1)\"],\"borderWidth\":1}],\"options\":{},\"id\":\"barchart\",\"updatedAt\":1586191284876}\n\n"
+activity: "data: {\"labels\":[\"Active\",\"Inactive\"],\"datasets\":[{\"data\":[79,2],\"backgroundColor\":[\"#46BFBD\",\"#F7464A\"],\"hoverBackgroundColor\":[\"#36A2EB\",\"#FF6384\"]}],\"options\":{},\"id\":\"activity\",\"updatedAt\":1586191284878}\n\n"
+patching: "data: {\"labels\":[\"Patched\",\"Unpatched\"],\"datasets\":[{\"data\":[71,64],\"backgroundColor\":[\"#46BFBD\",\"#F7464A\"],\"hoverBackgroundColor\":[\"#36A2EB\",\"#FF6384\"]}],\"options\":{},\"id\":\"patching\",\"updatedAt\":1586191284880}\n\n"
+valuation: "data: {\"current\":78,\"last\":66,\"id\":\"valuation\",\"updatedAt\":1586191339095}\n\n"
+karma: "data: {\"current\":4614,\"last\":134033,\"id\":\"karma\",\"updatedAt\":1586191339096}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Synergy\",\"value\":3},{\"label\":\"Enterprise\",\"value\":3},{\"label\":\"Pivoting\",\"value\":4},{\"label\":\"Paradigm
+  shift\",\"value\":2},{\"label\":\"Web 2.0\",\"value\":4},{\"label\":\"Exit strategy\",\"value\":3},{\"label\":\"Streamlininess\",\"value\":3},{\"label\":\"Leverage\",\"value\":3},{\"label\":\"Turn-key\",\"value\":2}],\"id\":\"buzzwords\",\"updatedAt\":1586191339096}\n\n"
+convergence: "data: {\"points\":[{\"x\":28,\"y\":8},{\"x\":29,\"y\":7},{\"x\":30,\"y\":44},{\"x\":31,\"y\":41},{\"x\":32,\"y\":39},{\"x\":33,\"y\":32},{\"x\":34,\"y\":33},{\"x\":35,\"y\":46},{\"x\":36,\"y\":2},{\"x\":37,\"y\":46}],\"id\":\"convergence\",\"updatedAt\":1586191339096}\n\n"
